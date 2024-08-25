@@ -1,8 +1,23 @@
-# React + Vite
+React App to display a json data using various graphs (not reponsive)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+STEPS TO LOCALLY RUN APPLICATION
+# Clone the repository
+git clone https://github.com/username/repository.git
 
-Currently, two official plugins are available:
+# Navigate to the project directory
+cd repository
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Install dependencies
+npm install
+# Or using Yarn
+yarn install
+
+# Start the development server
+npm start
+# Or using Yarn
+yarn start
+
+# Create a production build
+npm run build
+# Or using Yarn
+yarn build
