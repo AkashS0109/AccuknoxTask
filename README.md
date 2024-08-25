@@ -1,23 +1,18 @@
 React App to display a json data using various graphs (not reponsive)
 
 STEPS TO LOCALLY RUN APPLICATION
-# Clone the repository
+// Clone the repository
 git clone https://github.com/username/repository.git
 
-# Navigate to the project directory
+//Navigate to the project directory
 cd repository
 
-# Install dependencies
+// Install dependencies
 npm install
-# Or using Yarn
+// Or using Yarn
 yarn install
 
-# Start the development server
+// Start the development server
 npm start
-# Or using Yarn
+// Or using Yarn
 yarn start
-
-# Create a production build
-npm run build
-# Or using Yarn
-yarn build
