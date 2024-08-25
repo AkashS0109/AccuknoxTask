@@ -1,0 +1,30 @@
+[
+  {
+    "category": "Revenue Share",
+    "chartType": "PieChart",
+    "widgets": [
+      { "name": "No of People",  "data": [ { "name": "Product A", "value": 700 }, { "name": "Product B", "value": 300 } ] },
+      { "name": "Product B Share",  "data": [ { "name": "Product A", "value": 500 }, { "name": "Product B", "value": 400 } ,{ "name": "Product C", "value": 600 },{ "name": "Product D", "value": 100 }] }
+      
+    ]
+  },  
+  {
+      "category": "Sales Data",
+      "chartType": "BarChart",
+      "widgets": [
+        { "name": "Q1 Sales", "text": "Sales in Q1", "data": [ { "name": "Q1", "value": 400 }, { "name": "Q2", "value": 300 } ] },
+        { "name": "Q2 Sales", "text": "Sales in Q2", "data": [ { "name": "Q1", "value": 350 }, { "name": "Q2", "value": 450 } ] }
+      ]
+    },
+    {
+      "category": "User Growth",
+      "chartType": "LineChart",
+      "widgets": [
+        { "name": "January Growth", "text": "Growth in January", "data": [ { "month": "Jan", "users": 1000 }, { "month": "Feb", "users": 1200 } ] },
+        { "name": "February Growth", "text": "Growth in February", "data": [ { "month": "Jan", "users": 1500 }, { "month": "Feb", "users": 1600 } ] }
+      ]
+    }
+    
+  ]
+
+  

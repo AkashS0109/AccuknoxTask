@@ -1,0 +1,129 @@
+*{
+  margin: 0%;
+  padding: 0;
+}
+.outer {
+  display: flex;
+  align-items: center;
+  padding: 20px 10px;
+  gap:10px;
+  border-bottom: 1px solid #ddd;
+ 
+}
+
+.inner {
+  flex-grow: 1;
+}
+
+.outer h4 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.search-container {
+  position: relative;
+  right: 40rem;
+  width: 600px; /* Adjust as needed */
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px 10px 10px 40px; /* Extra padding for the icon */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #999;
+  pointer-events: none;
+}
+
+.userlogo {
+  
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+  position:absolute;
+  top:3%;
+  right:5%;
+}
+
+/* Css for  Hero */
+
+.hero-outer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(199, 236, 236, 0.404);
+  padding-top: 2rem;;
+ 
+}
+
+.hero-upper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-upper-left {
+  flex: 1;
+
+  h1{
+    padding-left: 1rem;;
+  }
+}
+
+.hero-upper-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; 
+  gap: 20px;
+
+}
+
+.hero-upper-right h4 {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 0;
+  padding:12px 15px; 
+
+  h4{
+    border: 2px solid grey;
+    border-radius: 15px;
+    
+  }
+}
+
+.hero-upper-right .sync-icon {
+  margin-right: auto; 
+  border: 12px 10px;
+  
+}
+.sync-icon{
+  padding:12px 12px;
+  border: 2px solid grey; 
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.hero-upper-right select {
+  padding: 12px 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+.add-widget-button{
+  background: #fff;
+  border-radius: 3px;;
+  color: #333;
+}

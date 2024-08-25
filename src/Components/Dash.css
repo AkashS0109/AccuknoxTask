@@ -1,0 +1,42 @@
+.outerest{
+background-color: rgba(199, 236, 236, 0.411);
+width:100vw;
+}
+.cards-outer{
+    padding-top: 2rem;;
+    h2{
+        padding-left: 4.2rem;
+        padding-bottom: 1rem;;
+    }
+}
+
+.outer-card-container{
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+
+.card{
+    width:600px;
+     padding:15px 10px;
+    border:2px solid grey;
+    background: white;
+    
+     border-radius: 20px;
+     position: relative;
+button{
+    position:absolute;
+    top:15px;
+    right:15px;
+}
+}
+.empty-card{
+    width:600px;
+   
+    border: 1px dashed gray;
+    
+    text-align: center;
+     width: 600px;
+     height:320px;
+
+}
